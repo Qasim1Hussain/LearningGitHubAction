@@ -1,4 +1,4 @@
-name: Hello world Workflow
+name: Hello world Workflow 2
 on:
   push:
     branches:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: hello world
-        run: echo "Hello world"
+        run: echo "Hello world 2"
         shell: bash
   goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye
-        run: echo "Good bye work"
+        run: echo "Good bye world 2"
         shell: bash
   
   
